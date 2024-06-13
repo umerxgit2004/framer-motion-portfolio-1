@@ -38,3 +38,20 @@ html {
     height: 200px;
     background-color: white;
   }
+
+  @mixin mobile {
+    @media (max-width:738px){
+      @content;
+    }
+  }
+
+  @mixin tablet {
+    @media (max-width:738px){
+      @content;
+    }
+  }
+  @mixin desktop {
+    @media (max-width:738px){
+      @content;
+    }
+  }

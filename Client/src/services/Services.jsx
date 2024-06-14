@@ -18,7 +18,7 @@ const variants = {
 }
 const Services = () => {
   return (
-    <motion.div className="services" variants={variants} initial="initial"  whileInView="animate">
+    <motion.div className="services" variants={variants} initial="initial"  animate ="animate">
       <motion.div className="textContainer">
         <p>I focus on helping your brand grow<br/> and move forward</p>
         <hr/>
